@@ -1,0 +1,39 @@
+Award-Worthy TV Shows
+https://tmdb.flixer.su/api/tmdb/discover/tv?page=1&vote_count.gte=500&vote_average.gte=8&without_genres=10763%2C10767&sort_by=vote_count.desc
+
+New TV Shows
+https://tmdb.flixer.su/api/tmdb/discover/tv?page=1&first_air_date.gte=2023-01-01&vote_count.gte=150&vote_average.gte=7&without_genres=10763%2C10767&sort_by=first_air_date.desc
+
+Drama Series
+https://tmdb.flixer.su/api/tmdb/discover/tv?page=1&with_genres=18&vote_count.gte=200&vote_average.gte=7&without_genres=10763%2C10767&sort_by=vote_average.desc
+
+Comedy Series
+https://tmdb.flixer.su/api/tmdb/discover/tv?page=1&with_genres=35&vote_count.gte=150&vote_average.gte=6.5&without_genres=10763%2C10767&sort_by=popularity.desc
+
+Crime & Mystery Shows
+https://tmdb.flixer.su/api/tmdb/discover/tv?page=1&with_genres=80&vote_count.gte=200&vote_average.gte=7&without_genres=10763%2C10767&sort_by=popularity.desc
+
+Sci-Fi & Fantasy Series
+https://tmdb.flixer.su/api/tmdb/discover/tv?page=1&with_genres=10765&vote_count.gte=150&vote_average.gte=6.5&without_genres=10763%2C10767&sort_by=popularity.desc
+
+Action & Adventure Series
+https://tmdb.flixer.su/api/tmdb/discover/tv?page=1&with_genres=10759&vote_count.gte=150&vote_average.gte=6.5&without_genres=10763%2C10767&sort_by=popularity.desc
+
+Animated Series
+https://tmdb.flixer.su/api/tmdb/discover/tv?page=1&with_genres=16&vote_count.gte=150&vote_average.gte=6.5&without_genres=10763%2C10767&sort_by=popularity.desc
+
+Documentaries
+https://tmdb.flixer.su/api/tmdb/discover/tv?page=1&with_genres=99&vote_count.gte=100&vote_average.gte=7&sort_by=vote_average.desc
+
+Korean Movies & Shows
+https://tmdb.flixer.su/api/tmdb/discover/movie?page=1&with_original_language=ko&vote_count.gte=100&vote_average.gte=6&sort_by=popularity.desc
+AND
+https://tmdb.flixer.su/api/tmdb/discover/tv?page=1&with_original_language=ko&vote_count.gte=100&vote_average.gte=6.5&without_genres=10763%2C10767&sort_by=popularity.desc
+AND
+https://tmdb.flixer.su/api/tmdb/discover/movie?page=1&with_genres=16&with_original_language=ja&vote_count.gte=50&vote_average.gte=6&sort_by=popularity.desc
+
+Anime Collection
+https://tmdb.flixer.su/api/tmdb/discover/tv?page=1&with_genres=16&with_original_language=ja&vote_count.gte=50&vote_average.gte=6.5&sort_by=popularity.desc
+
+On The Air
+https://tmdb.flixer.su/api/tmdb/tv/on_the_air?page=1&vote_count.gte=100&vote_average.gte=6&without_genres=10763%2C10767

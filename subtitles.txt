@@ -1,0 +1,32 @@
+GET SUBTITLES
+https://sub.wyzie.ru/search?id=278&format=srt
+
+
+const url = req.query.url as string;
+
+    if (url.startsWith("http") && !url.endsWith(".m3u8")) {
+      const response = await axios.get(url, {
+        responseType: "stream",
+      })
+      const data = response.data;
+      return data.pipe(res)
+    }
+
+    const response = await axios.get(url, {
+      responseType: "text",
+      headers: {
+        Referer: "https://flixer.su/",
+        Origin: "https://flixer.su",
+      }
+    })
+    const data = response.data.split("\n") as string[]
+    const modifiedData = data.map((line) => {
+      if (line.startsWith("http")) return `http://localhost:5000/m3u8-proxy?url=${encodeURIComponent(line)}`
+      return line
+    }).join("\n")
+
+    res.setHeader("Access-Control-Allow-Origin", "*")
+    res.setHeader("Access-Control-Allow-Methods", "GET, POST, OPTIONS")
+    res.setHeader("Access-Control-Allow-Headers", "If-Modified-Since,Range")
+
+    res.status(200).send(modifiedData)

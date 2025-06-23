@@ -1,0 +1,34 @@
+Action & Adventure Movies:
+/discover/movie?page=1&with_genres=28&vote_count.gte=300&vote_average.gte=6&sort_by=popularity.desc
+
+Comedy Movies: 
+/discover/movie?page=1&with_genres=35&vote_count.gte=250&vote_average.gte=6&sort_by=popularity.desc
+
+Drama Movies
+/discover/movie?page=1&with_genres=18&vote_count.gte=300&vote_average.gte=6.5&sort_by=vote_average.desc
+
+Sci-Fi & Fantasy Movies
+discover/movie?page=1&with_genres=878&vote_count.gte=250&vote_average.gte=6&sort_by=popularity.desc
+
+Thriller Movies
+/discover/movie?page=1&with_genres=53&vote_count.gte=250&vote_average.gte=6&sort_by=popularity.desc
+
+Romance Movies
+/discover/movie?page=1&with_genres=10749&vote_count.gte=200&vote_average.gte=6&sort_by=popularity.desc
+
+Animated Movies
+https://tmdb.flixer.su/api/tmdb/discover/movie?page=1&with_genres=16&vote_count.gte=200&vote_average.gte=6&sort_by=popularity.desc
+
+Horror Movies
+/discover/movie?page=1&with_genres=27&vote_count.gte=200&vote_average.gte=5.5&sort_by=popularity.desc
+
+Blockbuster Hits
+/discover/movie?page=1&vote_count.gte=2000&vote_average.gte=6.5&sort_by=revenue.desc
+
+Korean Movies & Shows
+https://tmdb.flixer.su/api/tmdb/discover/movie?page=1&with_original_language=ko&vote_count.gte=100&vote_average.gte=6&sort_by=popularity.desc
+AND
+https://tmdb.flixer.su/api/tmdb/discover/tv?page=1&with_original_language=ko&vote_count.gte=100&vote_average.gte=6.5&without_genres=10763%2C10767&sort_by=popularity.desc
+
+Anime Collection
+https://tmdb.flixer.su/api/tmdb/discover/tv?page=1&with_genres=16&with_original_language=ja&vote_count.gte=50&vote_average.gte=6.5&sort_by=popularity.desc
